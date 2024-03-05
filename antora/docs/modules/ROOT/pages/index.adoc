@@ -1,0 +1,40 @@
+= Main Page
+:navtitle: Navigation Title
+:description: My description
+:author: my Name
+:email: email@sample.com
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+:toc:
+
+{description}
+
+== Template for the Read the Docs tutorial in AsciiDoc
+
+This template is designed to guide you in creating comprehensive documentation that showcases examples and is inspired by https://docs.readthedocs.io/en/stable/examples.html[the Read the Docs example]. It utilizes AsciiDoc markup and Kroki diagramming, which allow you to create clear and concise diagrams to enhance your documentation.
+
+This template is readily available on GitHub and makes use of the Antora framework, which generates a well-organized site structure. The framework also comes with examples that demonstrate how to use AsciiDoc markup and Kroki diagramming to create effective documentation.
+
+By utilizing this template, you can create documentation that is easy to understand and visually appealing, making it an excellent resource for users seeking information on your project.
+
+== How to use this template
+
+- in github, create repo using this template `https://github.com/man-chi/example-antora-basic`
+- in IDE, create new project from github repo
+- in source code, edit `.readthedocs.yaml:`
+- update `site: title:` $YOUR_TITLE
+- update `sources: url: $YOUR_GITHUB_REPO_URL
+- in `antora/docs/modules/ROOT/pages`, create new.adoc
+- in `nav.adoc`, create new navigation menu under `section/new.adoc`
+
+
+== Credits:
+
+This particular template owes its existence to the hard work and contribution of some truly exceptional open-source contributors, who have put in their valuable time and effort to make it a reality.
+
+* https://github.com/readthedocs/readthedocs.org[ Readthedocs - hosting service for documentation]
+* https://asciidoc.org[ Asciidoc - plain text markup language for writing content]
+* https://asciidoctor.org[ AsciiDoctor - text processor for parsing AsciiDoc format]
+* https://antora.org[ Antora - documentation site generator for asciidoctor]
+* https://github.com/asciidoctor/asciidoctor-kroki[ asciidoctor-kroki -  asciidoctor extension for Kroki (diagram as code)]
+* https://github.com/asciidoctor/asciidoctor-intellij-plugin[ asciidoctor-intellij-plugin - Asciidoc plugin for intellij]
