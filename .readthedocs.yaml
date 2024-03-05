@@ -9,3 +9,7 @@ build:
     # Commands from https://docs.antora.org/antora/latest/install-and-run-quickstart/
     - npm install antora asciidoctor-kroki @antora/lunr-extension
     - npx -y antora --fetch --to-dir $READTHEDOCS_OUTPUT/html antora-playbook.yml
+
+formats:
+  - pdf
+
